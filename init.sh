@@ -1,6 +1,7 @@
 #Manual setup steps
 # - Connect to wifi
 # - (sudo) Get this file, chmod +x and run it
+#	https://raw.githubusercontent.com/arshwaraich12/ubuntu-setup/master/init.sh
 # - Chrome login and enable user themes
 # - Gnome tweak tool setup
 #	- Set icon/themes/extensions
@@ -37,6 +38,9 @@ sudo npm install -g @angular/cli;
 
 #Set up folder structure
 mkdir ~/Desktop/Code;
+
+#Set up init git repo
+git clone https://github.com/arshwaraich12/ubuntu-setup.git ~/Desktop/Code/ubuntu-setup;
 
 #Set themes
 #Cursor theme:
