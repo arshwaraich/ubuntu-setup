@@ -1,7 +1,7 @@
 #Manual setup steps
 # - Connect to wifi
 # - (sudo) Get this file, chmod +x and run it
-#	https://raw.githubusercontent.com/arshwaraich12/ubuntu-setup/master/init.sh
+#	wget https://raw.githubusercontent.com/arshwaraich12/ubuntu-setup/master/init.sh; chmod +x init.sh; ./init.sh
 # - Chrome login and enable user themes
 # - Gnome tweak tool setup
 #	- Set icon/themes/extensions
