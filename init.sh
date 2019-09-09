@@ -56,3 +56,6 @@ sudo apt install gnome-tweaks;
 sudo apt-get -y install chrome-gnome-shell;
 google-chrome https://extensions.gnome.org/extension/19/user-themes/;
 gnome-tweaks;
+
+#Clean up
+sudo apt-get -y remove ubuntu-web-launchers
