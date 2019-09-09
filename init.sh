@@ -11,7 +11,6 @@
 #Apt setup
 sudo add-apt-repository universe;
 sudo apt update;
-sudo apt upgrade -y;
 
 #Set wallpaper
 gsettings set org.gnome.desktop.background picture-uri https://wallpapercave.com/wp/wp2324440.jpg;
