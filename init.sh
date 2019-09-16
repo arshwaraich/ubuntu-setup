@@ -25,7 +25,7 @@ sudo snap install --classic code;
 #Download git
 sudo apt -y install git;
 git config --global user.email "29330144+arshwaraich@users.noreply.github.com";
-git config --global user.name "arshwaraich12";
+git config --global user.name "Arsh Waraich";
 
 #Download NodeJs
 sudo apt -y install curl;
