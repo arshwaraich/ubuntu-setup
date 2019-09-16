@@ -35,6 +35,9 @@ sudo apt-get install -y nodejs
 #Download Angular
 sudo npm install -g @angular/cli;
 
+#Download pip
+sudo apt -y install python-pip
+
 #Set up folder structure
 mkdir ~/Desktop/Code;
 
