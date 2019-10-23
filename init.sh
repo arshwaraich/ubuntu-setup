@@ -13,7 +13,7 @@ sudo add-apt-repository universe;
 sudo apt update;
 
 #Set wallpaper
-gsettings set org.gnome.desktop.background picture-uri https://wallpapercave.com/wp/wp2324440.jpg;
+gsettings set org.gnome.desktop.background picture-uri https://arshwaraich.com/public/wp2324440.jpg;
 
 #Download chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb;
