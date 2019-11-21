@@ -1,0 +1,1 @@
+sudo snap install github-desktop --beta --classic
