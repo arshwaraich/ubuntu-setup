@@ -15,17 +15,13 @@ sudo apt update;
 #Set wallpaper
 gsettings set org.gnome.desktop.background picture-uri https://arshwaraich.com/public/wp2324440.jpg;
 
-#Download chrome
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb;
-sudo dpkg -i google-chrome-stable_current_amd64.deb;
-
-#Download VSCode
-sudo snap install --classic code;
-
 #Download git
 sudo apt -y install git;
 git config --global user.email "arshwaraich12@gmail.com";
 git config --global user.name "arshwaraich12@gmail.com";
+
+#Download VSCode
+sudo snap install --classic code;
 
 #Download NodeJs
 sudo apt -y install curl;
@@ -57,7 +53,7 @@ git clone https://github.com/mythio/macterial.git ~/.themes/macterial
 #Set up gnome tweak tool
 sudo apt install gnome-tweaks;
 sudo apt-get -y install chrome-gnome-shell;
-google-chrome https://extensions.gnome.org/extension/19/user-themes/;
+brave-browser https://extensions.gnome.org/extension/19/user-themes/;
 gnome-tweaks;
 
 #Clean up
