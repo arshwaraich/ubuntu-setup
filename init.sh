@@ -64,7 +64,7 @@ gnome-tweaks;
 sudo apt-get -y remove ubuntu-web-launchers
 
 #Install github desktop
-sudo ./installGithubDesktop.sh
+sudo ~/Desktop/Code/ubuntu-setup/installGithubDesktop.sh
 
 #Install Brave
-sudo ./installBrave.sh
+sudo ~/Desktop/Code/ubuntu-setup/installBrave.sh
