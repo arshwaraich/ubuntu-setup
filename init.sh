@@ -29,24 +29,6 @@ git clone https://github.com/arshwaraich12/ubuntu-setup.git ~/Desktop/Code/ubunt
 #Install Brave
 sudo ~/Desktop/Code/ubuntu-setup/installBrave.sh
 
-#Install github desktop
-sudo ~/Desktop/Code/ubuntu-setup/installGithubDesktop.sh
-
-#Download VSCode
-sudo snap install --classic code;
-
-#Download NodeJs
-sudo apt -y install curl;
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt-get install -y nodejs
-
-#Download Angular
-sudo npm install -g @angular/cli;
-
-#Download pip
-sudo apt -y install python-pip;
-sudo apt -y install python3-pip;
-
 #Set themes
 #Cursor theme:
 sudo add-apt-repository ppa:dyatlov-igor/la-capitaine;
@@ -61,6 +43,27 @@ sudo apt install gnome-tweaks;
 sudo apt-get -y install chrome-gnome-shell;
 brave-browser https://extensions.gnome.org/extension/19/user-themes/;
 gnome-tweaks;
+
+#Install github desktop
+sudo ~/Desktop/Code/ubuntu-setup/installGithubDesktop.sh
+
+#Download VSCode
+sudo snap install --classic code;
+
+#Download Android Studio
+sudo snap install android-studio --classic
+
+#Download NodeJs
+sudo apt -y install curl;
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+#Download Angular
+sudo npm install -g @angular/cli;
+
+#Download pip
+sudo apt -y install python-pip;
+sudo apt -y install python3-pip;
 
 #Clean up
 sudo apt-get -y remove ubuntu-web-launchers
