@@ -7,6 +7,12 @@
 #	- Set icon/themes/extensions
 #	- Font 1.05
 # - Put dock to bottom and authide in settings
+# - (Optional) Install windows 10
+#  - Install virtual box
+#   - Enable multiverse from update&software
+#   - Install virtualbox from Ubuntu software
+#   - Add ISO from public directory of server/Windows 10 iso download
+#  - Install Windows 10 + Visual studio
 
 #Apt setup
 sudo add-apt-repository universe;
