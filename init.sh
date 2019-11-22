@@ -20,6 +20,18 @@ sudo apt -y install git;
 git config --global user.email "arshwaraich12@gmail.com";
 git config --global user.name "arshwaraich12@gmail.com";
 
+#Set up folder structure
+mkdir ~/Desktop/Code;
+
+#Set up init git repo
+git clone https://github.com/arshwaraich12/ubuntu-setup.git ~/Desktop/Code/ubuntu-setup;
+
+#Install Brave
+sudo ~/Desktop/Code/ubuntu-setup/installBrave.sh
+
+#Install github desktop
+sudo ~/Desktop/Code/ubuntu-setup/installGithubDesktop.sh
+
 #Download VSCode
 sudo snap install --classic code;
 
@@ -34,12 +46,6 @@ sudo npm install -g @angular/cli;
 #Download pip
 sudo apt -y install python-pip;
 sudo apt -y install python3-pip;
-
-#Set up folder structure
-mkdir ~/Desktop/Code;
-
-#Set up init git repo
-git clone https://github.com/arshwaraich12/ubuntu-setup.git ~/Desktop/Code/ubuntu-setup;
 
 #Set themes
 #Cursor theme:
@@ -58,9 +64,3 @@ gnome-tweaks;
 
 #Clean up
 sudo apt-get -y remove ubuntu-web-launchers
-
-#Install github desktop
-sudo ~/Desktop/Code/ubuntu-setup/installGithubDesktop.sh
-
-#Install Brave
-sudo ~/Desktop/Code/ubuntu-setup/installBrave.sh
