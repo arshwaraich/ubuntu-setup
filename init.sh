@@ -33,7 +33,7 @@ mkdir ~/Desktop/Code;
 git clone https://github.com/arshwaraich12/ubuntu-setup.git ~/Desktop/Code/ubuntu-setup;
 
 #Install Brave
-sudo ~/Desktop/Code/ubuntu-setup/installBrave.sh
+sudo snap install brave;
 
 #Set themes
 #Cursor theme:
