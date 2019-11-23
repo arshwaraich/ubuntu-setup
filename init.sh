@@ -47,7 +47,7 @@ git clone https://github.com/mythio/macterial.git ~/.themes/macterial
 #Set up gnome tweak tool
 sudo apt install gnome-tweaks;
 sudo apt-get -y install chrome-gnome-shell;
-brave-browser https://extensions.gnome.org/extension/19/user-themes/;
+firefox https://extensions.gnome.org/extension/19/user-themes/;
 gnome-tweaks;
 
 #Install github desktop
