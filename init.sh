@@ -19,7 +19,7 @@ sudo add-apt-repository universe;
 sudo apt update;
 
 #Set wallpaper
-gsettings set org.gnome.desktop.background picture-uri https://arshwaraich.com/public/wp2324440.jpg;
+gsettings set org.gnome.desktop.background picture-uri https://console.arshwaraich.com/public/wp2324440.jpg;
 
 #Download git
 sudo apt -y install git;
