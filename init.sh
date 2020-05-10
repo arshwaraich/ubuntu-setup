@@ -1,7 +1,7 @@
 #Manual setup steps
 # - Connect to wifi
 # - (sudo) Get this file, chmod +x and run it
-#	wget https://raw.githubusercontent.com/arshwaraich12/ubuntu-setup/master/init.sh; chmod +x init.sh; ./init.sh
+#	wget https://raw.githubusercontent.com/arshwaraich/ubuntu-setup/master/init.sh; chmod +x init.sh; ./init.sh
 # - Brave install gnome-shell and enable user themes
 # - Gnome tweak tool setup
 #	- Set icon/themes/extensions
@@ -30,7 +30,7 @@ git config --global user.name "arshwaraich12@gmail.com";
 mkdir ~/Desktop/Code;
 
 #Set up init git repo
-git clone https://github.com/arshwaraich12/ubuntu-setup.git ~/Desktop/Code/ubuntu-setup;
+git clone https://github.com/arshwaraich/ubuntu-setup.git ~/Desktop/Code/ubuntu-setup;
 
 #Install Brave
 sudo snap install brave;
